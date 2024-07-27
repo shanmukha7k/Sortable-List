@@ -1,0 +1,31 @@
+/* Column.css */
+
+.column {
+    background-color: #f2f2f3;
+    /* Light gray background */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 15px;
+    /* Padding inside the column */
+    width: 100%;
+    /* Full width of its container */
+    max-width: 500px;
+    /* Maximum width */
+    display: flex;
+    /* Flex container */
+    flex-direction: column;
+    /* Stack items vertically */
+    gap: 15px;
+    /* Space between tasks */
+    margin: 0 auto;
+    /* Center column horizontally */
+}
+
+.column-header {
+    font-size: 1.25rem;
+    /* Larger font size for the column header */
+    font-weight: bold;
+    /* Bold text */
+    margin-bottom: 10px;
+   
+}

@@ -1,0 +1,33 @@
+.input-container {
+    display: flex;
+    gap: 20px;
+   
+    justify-content: center;
+}
+
+.input {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+   
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+   
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
